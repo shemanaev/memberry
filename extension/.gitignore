@@ -1,0 +1,8 @@
+/node_modules
+.idea
+.vscode
+.eslintcache
+package-lock.json
+
+/dist-chrome
+/dist-firefox

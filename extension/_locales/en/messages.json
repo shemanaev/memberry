@@ -1,0 +1,17 @@
+{
+  "no_results": {
+    "message": "No results found"
+  },
+  "select_result": {
+    "message": "Select an option below"
+  },
+  "search_external": {
+    "message": "Search for $query$ in new tab",
+    "placeholders": {
+      "query": {
+        "content": "$1",
+        "example": "some text"
+      }
+    }
+  }
+}

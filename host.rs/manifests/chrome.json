@@ -1,0 +1,9 @@
+{
+    "name": "com.shemanaev.memberry",
+    "description": "Memberry host binary for the Chrome extension",
+    "path": "%EXEPATH%",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://%EXTENSION%/"
+    ]
+}

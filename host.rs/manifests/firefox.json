@@ -1,0 +1,7 @@
+{
+    "name": "com.shemanaev.memberry",
+    "description": "Memberry host binary for the Firefox extension",
+    "path": "%EXEPATH%",
+    "type": "stdio",
+    "allowed_extensions": [ "memberry@shemanaev.com" ]
+}

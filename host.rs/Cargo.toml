@@ -1,0 +1,12 @@
+[package]
+name = "memberry_host"
+version = "0.1.0"
+authors = ["Denis Shemanaev <denis.shemanaev@gmail.com>"]
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+tantivy = { git = "https://github.com/tantivy-search/tantivy" }
+webextension-protocol = "0.1.0"

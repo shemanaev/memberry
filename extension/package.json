@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --mode=development --watch",
+    "build-chrome": "webpack --config-name=chrome",
+    "watch-chrome": "webpack --config-name=chrome --mode=development --watch",
+    "build-firefox": "webpack --config-name=firefox",
+    "watch-firefox": "webpack --config-name=firefox --mode=development --watch"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "readability": "github:mozilla/readability"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
